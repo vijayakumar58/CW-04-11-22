@@ -2,3 +2,15 @@ p{
     color: red;
     text-align: center;
 }
+.flex-container {
+    background-color: dodgerblue;
+    display : flex;
+    
+}
+.flex-container >div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #f1f1f1;
+    
+}
